@@ -1,9 +1,9 @@
-import React from "react"
-import "./BokachaWebsite.scss"
-import BokachaBanner from "../../images/BokachaWebsite/BokachaBanner.png"
-import BokachaBrainstorm from "../../images/BokachaWebsite/BokachaBrainstorm.png"
-import BokachaWireframe from "../../images/BokachaWebsite/BokachaWireframe.png"
-import BokachaWholeSite from "../../images/BokachaWebsite/BokachaWholeSite.png"
+import React from "react";
+import "./BokachaWebsite.scss";
+import BokachaBanner from "../../images/BokachaWebsite/BokachaBanner.png";
+import BokachaBrainstorm from "../../images/BokachaWebsite/BokachaBrainstorm.png";
+import BokachaWireframe from "../../images/BokachaWebsite/BokachaWireframe.png";
+import BokachaWholeSite from "../../images/BokachaWebsite/BokachaWholeSite.png";
 
 const BokachaWebsite = () => {
   return (
@@ -70,7 +70,7 @@ const BokachaWebsite = () => {
       </div>
       <img src={BokachaWholeSite} alt="Bokacha brainstorm process" />
     </div>
-  )
-}
+  );
+};
 
-export default BokachaWebsite
+export default BokachaWebsite;

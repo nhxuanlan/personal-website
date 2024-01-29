@@ -1,8 +1,8 @@
-import React from 'react'
-import './style.scss'
-import portrait from '../../images/portrait.jpg'
-import TextBlock from '../TextBlock/TextBlock'
-import Resume from '../../document/Resume.pdf'
+import React from 'react';
+import './style.scss';
+import portrait from '../../images/portrait.jpg';
+import TextBlock from '../TextBlock/TextBlock';
+import Resume from '../../document/Resume.pdf';
 
 const Bio = () => {
   const experiences = [
@@ -18,7 +18,7 @@ const Bio = () => {
       content:
         'Produce video content for my Youtube channel (youtube.com/c/bylana). In seven months, the channel has grown steadily. The most popular video has 21k+ views.',
     },
-  ]
+  ];
   const education = [
     {
       name: 'Bachelor of Information and Communication Technology',
@@ -32,7 +32,7 @@ const Bio = () => {
       name: 'Summer school, Korea’s Culture & Arts',
       place: 'University of Seoul, June 2017',
     },
-  ]
+  ];
   return (
     <div id='about'>
       <div className='blur-bg-text'>
@@ -94,7 +94,7 @@ const Bio = () => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Bio
+export default Bio;

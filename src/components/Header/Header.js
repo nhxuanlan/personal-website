@@ -1,22 +1,22 @@
-import React, { useState } from "react"
-import "./style.scss"
-import logo from "../../images/LanLogo.png"
-import { NavLink, Link } from "react-router-dom"
+import React, { useState } from "react";
+import "./style.scss";
+import logo from "../../images/LanLogo.png";
+import { NavLink, Link } from "react-router-dom";
 
 const Header = ({ allRefs }) => {
   const handleNavClick = (ele, mobile) => {
     //Subtract the height of sticky header
     const position =
-      ele.current.getBoundingClientRect().top + window.pageYOffset
+      ele.current.getBoundingClientRect().top + window.pageYOffset;
     //Smooth scroll to element position with offset
-    if (mobile) setOpenMenu(!openMenu)
+    if (mobile) setOpenMenu(!openMenu);
     window.scrollTo({
       behavior: "smooth",
       top: position,
-    })
-  }
+    });
+  };
 
-  const [openMenu, setOpenMenu] = useState(false)
+  const [openMenu, setOpenMenu] = useState(false);
 
   return (
     <div>
@@ -57,7 +57,7 @@ const Header = ({ allRefs }) => {
                 rel="noreferrer"
                 href="https://www.youtube.com/c/byLana"
               >
-                <i class="fab fa-youtube"></i>
+                <i className="fab fa-youtube"></i>
               </a>
             </li>
           </ul>
@@ -135,6 +135,6 @@ const Header = ({ allRefs }) => {
         </div>
       </div>
     </div>
-  )
-}
-export default Header
+  );
+};
+export default Header;

@@ -1,5 +1,5 @@
-import React from "react"
-import "./TextBlock.scss"
+import React from "react";
+import "./TextBlock.scss";
 
 const TextBlock = ({ subTitle, description, content }) => {
   return (
@@ -8,7 +8,7 @@ const TextBlock = ({ subTitle, description, content }) => {
       <div className="text-block__description">{description}</div>
       {content && <div className="text-block__content">{content}</div>}
     </div>
-  )
-}
+  );
+};
 
-export default TextBlock
+export default TextBlock;

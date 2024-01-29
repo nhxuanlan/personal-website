@@ -1,21 +1,21 @@
-import React, { useRef } from "react"
-import "./GroceryApp.scss"
-import GroceryAppBanner from "../../images/GroceryApp/GroceryAppBanner.png"
-import GroceryUserFlow from "../../images/GroceryApp/GroceryUserFlow.png"
-import GroceryWireframe from "../../images/GroceryApp/GroceryWireframe.png"
-import GrocerySplash from "../../images/GroceryApp/GrocerySplash.gif"
-import GroceryLogin1 from "../../images/GroceryApp/GroceryLogin1.png"
-import GroceryLogin2 from "../../images/GroceryApp/GroceryLogin2.png"
-import GroceryHome from "../../images/GroceryApp/GroceryHome.png"
-import GroceryCounting from "../../images/GroceryApp/GroceryCounting.gif"
-import GroceryProgress from "../../images/GroceryApp/GroceryProgress.gif"
-import GroceryAdd1 from "../../images/GroceryApp/GroceryAdd1.png"
-import GroceryAdd2 from "../../images/GroceryApp/GroceryAdd2.png"
+import React, { useRef } from "react";
+import "./GroceryApp.scss";
+import GroceryAppBanner from "../../images/GroceryApp/GroceryAppBanner.png";
+import GroceryUserFlow from "../../images/GroceryApp/GroceryUserFlow.png";
+import GroceryWireframe from "../../images/GroceryApp/GroceryWireframe.png";
+import GrocerySplash from "../../images/GroceryApp/GrocerySplash.gif";
+import GroceryLogin1 from "../../images/GroceryApp/GroceryLogin1.png";
+import GroceryLogin2 from "../../images/GroceryApp/GroceryLogin2.png";
+import GroceryHome from "../../images/GroceryApp/GroceryHome.png";
+import GroceryCounting from "../../images/GroceryApp/GroceryCounting.gif";
+import GroceryProgress from "../../images/GroceryApp/GroceryProgress.gif";
+import GroceryAdd1 from "../../images/GroceryApp/GroceryAdd1.png";
+import GroceryAdd2 from "../../images/GroceryApp/GroceryAdd2.png";
 
 const GroceryApp = () => {
-  const ref = useRef()
+  const ref = useRef();
   const handleScrollClick = () =>
-    ref.current.scrollIntoView({ behavior: "smooth" })
+    ref.current.scrollIntoView({ behavior: "smooth" });
   return (
     <div className="grocery-app">
       <div className="container">
@@ -185,7 +185,7 @@ const GroceryApp = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default GroceryApp
+export default GroceryApp;
