@@ -1,0 +1,28 @@
+.illustration {
+  .project-overview {
+    &::after {
+      background: #c65105;
+    }
+  }
+  img {
+    width: 100%;
+  }
+  .section-with-bg {
+    background: #f9f9f9;
+    width: 108%;
+    margin-left: -4%;
+    margin-top: 150px;
+    padding: 80px 5%;
+    box-sizing: border-box;
+  }
+
+  .illustration-logo-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 40%;
+    }
+  }
+}

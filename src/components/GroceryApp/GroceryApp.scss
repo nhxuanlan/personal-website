@@ -1,0 +1,55 @@
+.grocery-app {
+  .project-overview {
+    &::after {
+      background: #f6d0c9;
+    }
+  }
+  img {
+    width: 100%;
+  }
+  img.banner-image {
+    width: 108%;
+    margin-left: -4%;
+    margin-bottom: 50px;
+  }
+  .scroll-button {
+    background: #f6d0c9;
+  }
+}
+
+.section-with-bg {
+  background: #eaebf3;
+  margin-top: 150px;
+  padding: 80px 4%;
+  box-sizing: border-box;
+
+  .content-inner-bg {
+    max-width: 1200px;
+    margin: auto;
+
+    .mock-wrapper-text-left {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      @media screen and (min-width: 768px) {
+        margin-right: unset;
+        margin-left: 15%;
+      }
+    }
+
+    .mock-wrapper-text-right {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+
+      @media screen and (min-width: 768px) {
+        margin-right: unset;
+        margin-left: 5%;
+      }
+    }
+
+    .phone-img {
+      width: 230px;
+    }
+  }
+}
