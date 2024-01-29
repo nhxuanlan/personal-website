@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.10a419e4.css",
+    "main.js": "/personal-website/static/js/main.da7cb3a3.js",
+    "static/media/BokachaWholeSite.png": "/personal-website/static/media/BokachaWholeSite.07f246cb51f31fad0d66.png",
+    "static/media/portrait.jpg": "/personal-website/static/media/portrait.538d6dfcf277d67a51a4.jpg",
+    "static/media/Youtube.png": "/personal-website/static/media/Youtube.bd50cb1b8e6fd8c41230.png",
+    "static/media/Resume.pdf": "/personal-website/static/media/Resume.84ca86277df541356c0d.pdf",
+    "static/media/Bokacha.png": "/personal-website/static/media/Bokacha.20532465cc550954fbfb.png",
+    "static/media/GrocerySplash.gif": "/personal-website/static/media/GrocerySplash.c9d6aba9cd856f64bd9b.gif",
+    "static/media/GroceryCounting.gif": "/personal-website/static/media/GroceryCounting.9cd633c10f5409dcfd23.gif",
+    "static/media/BokachaBanner.png": "/personal-website/static/media/BokachaBanner.2aea7020ca6433b5189f.png",
+    "static/media/GroceryAppBanner.png": "/personal-website/static/media/GroceryAppBanner.fd6254983e30f02392c4.png",
+    "static/media/LandingPage.png": "/personal-website/static/media/LandingPage.053d23a3c52f92b2e8cc.png",
+    "static/media/GroceryApp.png": "/personal-website/static/media/GroceryApp.575c93f16845e814871b.png",
+    "static/media/GroceryProgress.gif": "/personal-website/static/media/GroceryProgress.c15110071729af63ead3.gif",
+    "static/media/Illustration.png": "/personal-website/static/media/Illustration.2c05ffa2033ed21911cd.png",
+    "static/media/IllustrationBanner.png": "/personal-website/static/media/IllustrationBanner.5cf01338eca58515f248.png",
+    "static/media/smallPortrait.jpg": "/personal-website/static/media/smallPortrait.422915cc133a1a1ef636.jpg",
+    "static/media/GroceryWireframe.png": "/personal-website/static/media/GroceryWireframe.08d7a17589b802676d12.png",
+    "static/media/BokachaWireframe.png": "/personal-website/static/media/BokachaWireframe.d08d40a3b3006447b30a.png",
+    "static/media/GroceryLogin1.png": "/personal-website/static/media/GroceryLogin1.9c0c5543b4addc969570.png",
+    "static/media/GroceryAdd2.png": "/personal-website/static/media/GroceryAdd2.26f929c9400af258d4c9.png",
+    "static/media/GroceryAdd1.png": "/personal-website/static/media/GroceryAdd1.44100119bd6e70bf1adb.png",
+    "static/media/GroceryLogin2.png": "/personal-website/static/media/GroceryLogin2.fc83a8f9e96abc14aae6.png",
+    "static/media/GroceryHome.png": "/personal-website/static/media/GroceryHome.121d99ce3601512511ab.png",
+    "static/media/BokachaBrainstorm.png": "/personal-website/static/media/BokachaBrainstorm.0ba05a94ec5eaee4ca99.png",
+    "static/media/GroceryUserFlow.png": "/personal-website/static/media/GroceryUserFlow.224e7b2e2aac25ad6dde.png",
+    "index.html": "/personal-website/index.html",
+    "main.10a419e4.css.map": "/personal-website/static/css/main.10a419e4.css.map",
+    "main.da7cb3a3.js.map": "/personal-website/static/js/main.da7cb3a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10a419e4.css",
+    "static/js/main.da7cb3a3.js"
+  ]
+}
