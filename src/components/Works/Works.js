@@ -1,11 +1,12 @@
-import React from "react"
-import { Link } from "react-router-dom"
-import "./Works.scss"
-import BokachaImg from "../../images/BokachaWebsite/Bokacha.png"
-import GroceryImg from "../../images/GroceryApp/GroceryApp.png"
-import LandingImg from "../../images/LandingPage.png"
-import IllustrationImg from "../../images/Illustration.png"
-import YoutubeImg from "../../images/Youtube.png"
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Works.scss";
+import BokachaImg from "../../images/BokachaWebsite/Bokacha.png";
+import RenotechImg from '../../images/Renotech/RenotechThumbnail.png';
+import GroceryImg from "../../images/GroceryApp/GroceryApp.png";
+import LandingImg from "../../images/LandingPage.png";
+import IllustrationImg from "../../images/Illustration.png";
+import YoutubeImg from "../../images/Youtube.png";
 
 const Works = () => {
   return (
@@ -16,7 +17,7 @@ const Works = () => {
             <h2 className="work-title">Bokacha Website</h2>
             <div className="work-description">
               My current freelance project at the moment. Aim of the project is
-              to create a nice and clean website for a coffee shop in Turku.
+              to create a nice and clean website for Bokacha coffee shop.
               <br />
               Tool: Figma.
             </div>
@@ -28,6 +29,7 @@ const Works = () => {
             <img src={BokachaImg} alt="Bokacha project" />
           </div>
         </div>
+
         <div className="single-work-wrapper">
           <div className="work-text-wrapper">
             <h2 className="work-title">Grocery List App</h2>
@@ -46,6 +48,7 @@ const Works = () => {
             <img src={GroceryImg} alt="Grocery app" />
           </div>
         </div>
+
         <div className="single-work-wrapper">
           <div className="work-text-wrapper">
             <h2 className="work-title">Landing Page</h2>
@@ -59,6 +62,7 @@ const Works = () => {
             <img src={LandingImg} alt="Landing page design" />
           </div>
         </div>
+
         <div className="single-work-wrapper">
           <div className="work-text-wrapper">
             <h2 className="work-title">Illustration</h2>
@@ -75,6 +79,24 @@ const Works = () => {
             <img src={IllustrationImg} alt="Illustration drawing" />
           </div>
         </div>
+
+        <div className="single-work-wrapper">
+          <div className="work-text-wrapper">
+            <h2 className="work-title">Renotech website</h2>
+            <div className="work-description">
+              This was a project that was managed and given by the university. The target was to renew the website for Renotech Oy.
+              <br />
+              Tool: Figma. Language: CSS.
+            </div>
+            <Link to="/works/renotech">
+              <div className="work-button">See my work</div>
+            </Link>
+          </div>
+          <div className="work-image-wrapper">
+            <img src={RenotechImg} alt="Renotech project" />
+          </div>
+        </div>
+
         <div className="single-work-wrapper">
           <div className="work-text-wrapper">
             <h2 className="work-title">My Youtube channel</h2>
@@ -100,7 +122,7 @@ const Works = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Works
+export default Works;

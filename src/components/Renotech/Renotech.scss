@@ -1,0 +1,18 @@
+.images-wrapper {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  img {
+    flex: 100%;
+    width: 100%;
+    border: 1px solid #000;
+
+    @media screen and (min-width: 768px) {
+      flex: 48%;
+      width: 48%;
+    }
+  }
+}

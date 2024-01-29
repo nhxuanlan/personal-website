@@ -1,19 +1,20 @@
-import "./commonStyles/App.scss"
-import Header from "./components/Header/Header"
-import About from "./components/About/About"
-import Works from "./components/Works/Works"
-import GroceryApp from "./components/GroceryApp/GroceryApp"
-import BokachaWebsite from "./components/BokachaWebsite/BokachaWebsite"
-import Illustration from "./components/Illustration/Illustration"
-import Footer from "./components/Footer/Footer"
-import ScrollToTop from "./components/ScrollToTop"
-import React from "react"
+import "./commonStyles/App.scss";
+import Header from "./components/Header/Header";
+import About from "./components/About/About";
+import Works from "./components/Works/Works";
+import GroceryApp from "./components/GroceryApp/GroceryApp";
+import BokachaWebsite from "./components/BokachaWebsite/BokachaWebsite";
+import Illustration from "./components/Illustration/Illustration";
+import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Redirect,
-} from "react-router-dom"
+} from "react-router-dom";
+import Renotech from "./components/Renotech/Renotech";
 
 const App = () => {
   return (
@@ -32,6 +33,9 @@ const App = () => {
             <Route path="/works/bokacha-website">
               <BokachaWebsite />
             </Route>
+            <Route path="/works/renotech">
+              <Renotech />
+            </Route>
             <Route path="/works/illustration">
               <Illustration />
             </Route>
@@ -46,7 +50,7 @@ const App = () => {
         </div>
       </Router>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

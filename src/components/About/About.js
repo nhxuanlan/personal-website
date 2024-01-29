@@ -2,21 +2,27 @@ import React from 'react';
 import './style.scss';
 import portrait from '../../images/portrait.jpg';
 import TextBlock from '../TextBlock/TextBlock';
-import Resume from '../../document/Resume.pdf';
+import Resume from '../../document/LanResume.pdf';
 
 const Bio = () => {
   const experiences = [
     {
-      title: 'UI Freelance Designer',
-      date: 'April 2021-present',
+      title: 'Bokacha coffee shop | Branch Manager',
+      date: 'May 2022 - present',
       content:
-        'I have been a UI freelance designer since April 2021. My current project is designing a website for Bokacha, a coffee shop in Turku.',
+        'Manage everyday work flow from stocking, producing quality services to communicating with customers/employees.',
     },
     {
-      title: 'Content creator | Youtuber',
-      date: 'October 2020-present',
+      title: 'Youtuber',
+      date: 'October 2020 - present',
       content:
-        'Produce video content for my Youtube channel (youtube.com/c/bylana). In seven months, the channel has grown steadily. The most popular video has 21k+ views.',
+        'Produce video content for my Youtube channel (youtube.com/c/bylana). The most popular video has 36k+ views.',
+    },
+    {
+      title: 'Renotech | Designer | Front-end Developer',
+      date: 'September 2017 - March 2018',
+      content:
+        'Designed a new website that is not only easy to use, but to maintain good, modern UI and smooth UX. Helped to style components with CSS.',
     },
   ];
   const education = [
@@ -50,7 +56,7 @@ const Bio = () => {
           <div className='bio__text-section'>
             <div className='bio__text-wrapper'>
               <h2>
-                A freelance Designer, based in Helsinki, looking for{' '}
+                A junior front-end developer, based in Helsinki, looking for{' '}
                 <span className='unique-color'>challenges.</span>
               </h2>
               <p>
@@ -62,12 +68,10 @@ const Bio = () => {
                 <br />
                 During my time at the university, I took part in several
                 projects, in which I performed different roles: web designer,
-                front-end developer, and project manager. Along the way, I
-                realized that I was really into visual design. Currently, I'm
-                pursuing further education in UI/UX design and trying to look
+                front-end developer etc. Currently, I'm
+                pursuing further education in web development and trying to look
                 for an opportunity to improve my experience.
                 <br />
-                {/* Some extra info: */}
               </p>
             </div>
           </div>
