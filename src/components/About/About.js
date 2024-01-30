@@ -69,8 +69,7 @@ const Bio = () => {
                 During my time at the university, I took part in several
                 projects, in which I performed different roles: web designer,
                 front-end developer etc. Currently, I'm
-                pursuing further education in web development and trying to look
-                for an opportunity to improve my experience.
+                looking for an opportunity to improve my experience in web development field.
                 <br />
               </p>
             </div>

@@ -7,6 +7,7 @@ import GroceryImg from "../../images/GroceryApp/GroceryApp.png";
 import LandingImg from "../../images/LandingPage.png";
 import IllustrationImg from "../../images/Illustration.png";
 import YoutubeImg from "../../images/Youtube.png";
+import SammalImg from '../../images/SammalThumbnail.png';
 
 const Works = () => {
   return (
@@ -60,6 +61,23 @@ const Works = () => {
           </div>
           <div className="work-image-wrapper">
             <img src={LandingImg} alt="Landing page design" />
+          </div>
+        </div>
+
+        <div className="single-work-wrapper">
+          <div className="work-text-wrapper">
+            <h2 className="work-title">Sammal product page</h2>
+            <div className="work-description">
+              Redesigned product page UI of Sammal online shop with the main focus on offering transparency on the environmental impact of products.
+              <br />
+              Tool: AdobeXD.
+            </div>
+            <a rel="noreferrer" href="https://www.behance.net/gallery/122386679/Product-Page-Design" target="_blank">
+              <div className="work-button">See my work</div>
+            </a>
+          </div>
+          <div className="work-image-wrapper">
+            <img src={SammalImg} alt="Sammal project" />
           </div>
         </div>
 
